@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body >
+    <div id="wrapper">
+      <div id="container">
+        <h1>City <span id="span">Weather</span> </h1>
+        
+        <div>
+        <input type="text" id="searchId" placeholder="Search weather by city and pin-code" />
+        <button type="submit" value="Search" onclick="search()" id="btn">Search</button>
+
+        <hr>
+        <div id="results"></div>
+        <div id="resultsForecast"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
